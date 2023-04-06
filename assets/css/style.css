@@ -6,9 +6,8 @@ ul {
     background-color: #92959b;
   }
   
-  li {
-    float: left;
-  }
+ 
+  
   
  
   li a {
@@ -30,7 +29,8 @@ ul {
   #home,
   #about,
   #contact,
-  #motivation {
+  #motivation,
+  #hobby {
     color: white; 
     text-align: left;
 
@@ -47,6 +47,7 @@ main {
     max-width: none;
     margin: auto;
 }
+
 h1, h2, h3 {
 color: blue;
 }
@@ -69,11 +70,7 @@ ol {
 
 
 }
-ol {
-    list-style-type: circle;
-    margin: 0;
-    padding: 0;
-  }
+
   
 @media screen and (max-width: 900px) {
     .column {
@@ -81,14 +78,14 @@ ol {
     }
   }
   
-  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+  
   @media screen and (max-width: 600px) {
-    .column {
+    .row {
       width: 100%;
     }
   }
 
-  footer{
+  footer {
     color: #fff;
-    text-align: left;
+    text-align: center;
   }
