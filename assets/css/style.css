@@ -3,16 +3,13 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #92959b;
+    background-color: #FFF4E0;
   }
-  
- 
-  
   
  
   li a {
     display: block;
-    color: navajowhite;
+    color: #B46060;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -20,7 +17,7 @@ ul {
   
   
   li a:hover {
-    background-color: #fff;
+    background-color: #FFBF9B;
   }
   .active {
     background-color: #0b4530;
@@ -30,14 +27,16 @@ ul {
   #about,
   #contact,
   #motivation,
-  #hobby {
-    color: white; 
+  #hobby
+  #volunteer, p {
+    color: rgb(77, 77, 77); 
     text-align: left;
-
-
+    font-family: 'Times New Roman', Times, serif;
   }
+
+
 body {
-    background-color: #92959b;
+    background-color: #FFF4E0;
     padding: 20px;
     font-size: medium;
     font-family: 'Times New Roman', Times, serif;
@@ -48,14 +47,14 @@ main {
     margin: auto;
 }
 
-h1, h2, h3 {
-color: blue;
+h1, h2, h3, h4, h5, h6 {
+color: 
+#B46060;
 }
 
 .column {
-    color: #fff;
+    color: #4D4D4D;
 }
-
 
 img {
  
@@ -65,7 +64,7 @@ img {
 }
 
 ol {
-    color: #fff;
+    color: #4D4D4D;
     list-style-type: circle;
 
 
@@ -86,6 +85,6 @@ ol {
   }
 
   footer {
-    color: #fff;
+    color: #4D4D4D;
     text-align: center;
   }
